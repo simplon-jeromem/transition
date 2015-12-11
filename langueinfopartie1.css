@@ -1,0 +1,45 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+*,*:before,*:after{
+    box-sizing: content-box;
+}
+
+h2{
+    
+    color: white;
+    background-color: gray;
+    text-align: center;
+    
+}
+ul li{
+    display: inline-flex;
+ width:400px;
+    height:400px;
+    list-style:none;
+}
+ul li:hover{
+    width: 400px;
+    height:300px;
+}
+
+ul li a{
+    
+     width:300px;height:350px;
+     flex-direction: row;
+    flex-flow: row;
+text-align: center;
+    text-decoration: none;
+}
+
+
+
+ 
+
+ul li a img{
+      width:200px;height:300px;
+  
+}
+
+
