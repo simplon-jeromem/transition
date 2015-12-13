@@ -82,9 +82,7 @@ position: absolute;
  transition-timing-function: cubic-bezier(.6, 4, .2, 1);  
     
 }
-ul:hover li a:not(:hover) img{
-    filter: grayscale(1) blur(5px);
-}
+
 
 h2 span {
     transition-property: visibility;
